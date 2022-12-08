@@ -50,3 +50,7 @@ h3 {
     border-color: whitesmoke;
     border-radius: 10px;
 }
+
+#instructions {
+    margin-top: 300px;
+}
