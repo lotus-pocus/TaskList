@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: grey;
+}
+
+
+body {
+    display: flex;
+}
+
+
+.title {
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;  
+    width: 100%;  
+    color: whitesmoke;
+    font-weight:700;
+}
+
+h3 {
+    font-size: 5rem;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+
+
+#submitButton {
+    text-align: justify;
+    position: right;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 700px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#taskEntry {
+    background-color: lightgray;
+    width:750px;
+    height: 50px;
+    cursor: pointer;
+    border-color: whitesmoke;
+    border-radius: 10px;
+}
